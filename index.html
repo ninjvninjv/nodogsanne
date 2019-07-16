@@ -1,0 +1,297 @@
+<html>
+
+    <head>
+        
+        <meta charset="UTF-8">
+        
+        <!--ignore this two lines*/-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    
+        <!--change the title to the name of your dog*/-->
+        <title>Let's bring back Harold</title>
+        <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet"> 
+    
+    </head>
+    
+    
+    <body>
+        
+        <div class="importantthings">
+        
+            <p1>Let's bring back Harold</p>
+            
+        </div>
+        
+        <div class= "A">
+    
+    </div>
+         <p class= "A"> Harold is</p>
+        <div class= "B">
+        
+      
+        
+        </div>
+        <p class="Bbis">all over the place</p>
+        <div class="C">
+        <p class="cbis">picky</p>
+        
+        </div>
+        
+        <div class="D">
+            <p class="dbis"> GONE!</p>
+        </div>
+        
+        <div class="E">
+        <p class="Ebis"> beautiful</p>
+        </div>
+        <div class="F">
+        <p class="Fbis">the best at catching balls</p>
+        
+    </div>
+        <div class="G">
+     <p class="Gbis">precious</p>   
+        </div>
+    <div class="H">
+        <p class="Hbis"> loved</p>
+        </div>
+        <div class="HH">
+        <p class="HHbis">one of seven siblings</p>
+        </div>
+        
+        
+        
+        
+        <div class="I">
+      <p class="Ibis">My grandmothers dog. He used to be her Favorite until she died and I inherited him</p>  
+        </div>
+        <div class="J">
+       <p class="Jbis">a human in a dogs body</p> 
+        </div>
+        
+        <div class="K">
+        <p class="Kbis">gone since Thursday. He has last been seen in front of my apartment.
+            His collar has been found one block from there</p>
+        </div>
+        <div class="L">
+        <p class="Lbis">my best friend since I saved him from getting run over by a truck</p>
+        </div>
+        <div class="M">
+        <p class="Mbis">missed dearly</p>
+        </div>
+        
+             
+             
+             
+    </body>
+    
+    
+    <style>
+    
+        .importantthings{
+             
+            position:fixed;
+            top:0px;
+            left:0px;
+            width:100%;
+            
+            font-family:Arvo, serif;
+            font-size: 10vw;
+            font-kerning:auto ;
+            
+            text-align: center;
+            text-transform: ;
+            text-overflow: ;
+            text-shadow: 0 0 1px white;
+            
+            transform: scaleX();
+            transform: scaleY();
+            transform: ;
+            
+            color: ;
+            
+            white-space: ;
+            
+            
+        }
+        
+        p {
+            color: black;
+            font-size:200pt;
+            text-align:center;
+            position:absolute;
+            width:80%;
+            top:20%;
+            
+        }
+        
+        .B,.C,.D,.E,.F,.G,.H,.I,.J,.K,.L,.M,.HH {
+            background-color: black;
+            border-radius: 50%;
+            position:absolute;
+            
+        }
+        div:hover{
+            
+            background-color:red;
+            
+        }
+        .A { height:10vw;
+            width:10vw;
+            top:30vw;
+            left:10vw;
+        
+            z-index:100;
+          }
+        .B{
+          height: 10vw;
+              width:10vw;
+            top: 100vw;
+                left: 90vw;
+            
+            z-index:100;
+        }
+        .C{
+           height:10vw;
+            width: 10vw;
+              top: 10vw;
+                  left: 20vw;
+            
+        }
+        .D{
+           height:13vw;
+            width:13vw;
+            top: 50vw;
+            left:5vw;
+             }
+        .E{
+           height:15vw;
+            width:15vw;
+            top: 2vw;
+            left:30vw;
+            
+        }
+        
+        .F{
+           height:20vw;
+            width:20vw;
+            top;109vw;
+            left:78vw;
+            
+        }   
+            
+        .G{
+            height:10vw;
+            width:10vw;
+            top:100vw;
+            left:16vw;
+            
+        }     
+        .H{
+           height:20vw;
+            width:20vw;
+            top:19vw;
+            left:90vw;
+            
+            
+        }    
+        .I{height:15vw;
+            width:15vw;
+            top:95vw;
+            left:15vw;
+            
+            } 
+        .J{
+           height:24vw;
+            width:24vw;
+            top: 30vw;
+            left:60vw;
+            
+        }
+        .K{
+           height:30vw;
+            width:30vw;
+            top: 80vw;
+            left:40vw;
+            
+        }
+        .L{
+           height:10vw;
+            width:10vw;
+            top: 80vw;
+            left: 80vw;
+            
+            
+        }
+        .M{
+           height:20vw;
+            width:20vw;
+            top:100vw;
+            left:0vw;
+            
+        }
+        .HH{
+            height:35vw;
+            width:35vw;
+            top:50vw;
+            left:40vw;
+            
+      
+        }
+        
+    </style>
+    
+    
+    <script>
+        
+        //This means, everything inside this brackets will be called directly, when the document is open
+        $(document).ready(function(){
+
+            //get the height of the window and the width of the <body> for using them in your function
+            var h = $(window).height();
+            var w = $('body').width();
+
+            //This means, that the function will be called, when '.text' is clicked
+            
+            
+            
+            //this function will be called every time the mouse moves
+            $('.text').mouseover(function(){
+            
+                
+            });
+            
+            //everything inside this brackets happens, when you resize the browser window
+            $(window).resize(function(){
+
+
+            });
+            
+            //This means, that the function will be called, when '.text' is clicked
+            $('.text').on('click',function(){
+                
+                
+            });
+            
+            //this function will be called every time the mouse moves
+            $('body').mousemove(function(e){
+
+                    //saves the x- and y-coordinate in two variables
+                    var x =e.pageX;
+                    var y =e.pageY;
+
+                    $('.text').css({'font-size': y + x}); 
+                    $('#text2').css({'color': "rgb(" + (x - y) + "," + y + "," + x + ")"});
+                
+                });
+            
+        });
+            
+            
+        
+
+           
+    </script>
+        
+    
+</html>
